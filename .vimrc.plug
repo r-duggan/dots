@@ -1,0 +1,52 @@
+call plug#begin('~/.vim/plugged')
+
+"Color schemes
+Plug 'flazz/vim-colorschemes'
+Plug 'sjl/badwolf'
+Plug 'morhetz/gruvbox'
+Plug 'ayu-theme/ayu-vim'
+Plug 'Yggdroot/indentLine'
+Plug 'dracula/vim',{'as':'dracula'}
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+"Surround Vim Quoting/Parenthesizing made simple
+"Plug 'tpope/vim-surround'
+"Plug 'raimondi/delimitmate'
+
+"Lean & mean status/tabline for vim that's light as air
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+"Code compeletion
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'valloric/youcompleteme'
+
+" Fuzzy finder
+Plug 'ctrlpvim/ctrlp.vim'
+
+" C++ Syntax
+Plug 'octol/vim-cpp-enhanced-highlight'
+" Python Specific
+"Plug 'hdima/python-syntax'
+"Plug 'hynek/vim-python-pep8-indent'
+"Plug 'sheerun/vim-polyglot'
+" Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
+" Plug 'klen/python-mode'
+
+" Ctag stuff
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'majutsushi/tagbar'
+
+"The NERDTree is a file system explorer for the Vim editor
+Plug 'preservim/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
+
+" Error Detection
+Plug 'dense-analysis/ale'
+
+call plug#end()
