@@ -23,7 +23,7 @@
           }
         },
         {
-          "background": "#98971A",
+          "background": "#35981a",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FCAE1E{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FCAE1E{{ end }}",
