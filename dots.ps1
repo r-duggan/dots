@@ -1,3 +1,5 @@
+#create a dots directory
+mkdir $HOME\.dots
 #create a file to source the .vimrc
 New-Item -ItemType file $env:USERPROFILE\.vimrc
 Add-Content $env:USERPROFILE\.vimrc 'source ~/.dots/.vimrc'
@@ -15,3 +17,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 $sourcePath = "$HOME\.dots\Microsoft.PowerShell_profile.ps1"
 $targetPath = "$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 New-Item -ItemType SymbolicLink -Path $targetPath -Target $sourcePath
+
