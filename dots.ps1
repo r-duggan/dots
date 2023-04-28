@@ -54,6 +54,6 @@ if (Test-Path $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 else {
     $sourcePath = "$HOME\.dots\Microsoft.PowerShell_profile.ps1"
     $targetPath = "$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
-    Write-Host "Symlinking $sourcePath to $targetPath'n"
+    Write-Host "Symlinking $sourcePath to $targetPath`n"
     New-Item -ItemType SymbolicLink -Path $targetPath -Target $sourcePath
 }
