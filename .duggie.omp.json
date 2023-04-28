@@ -47,7 +47,7 @@
         },
         {
           "background": "#8ED1F7",
-          "foreground": "#111111",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_version": true
@@ -58,7 +58,7 @@
         },
         {
           "background": "#4063D8",
-          "foreground": "#111111",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_version": true
@@ -69,7 +69,7 @@
         },
         {
           "background": "#FFDE57",
-          "foreground": "#111111",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -119,7 +119,7 @@
         },
         {
           "background": "#ffff66",
-          "foreground": "#111111",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \uf0ad ",
@@ -132,7 +132,7 @@
       "alignment": "right",
       "segments": [
         {
-            "background": "#29315A",
+            "background": "#44475a",
             "foreground": "#ffffff",
             "leading_diamond": "\ue0c5",
             "properties": {
@@ -148,11 +148,11 @@
           "style": "diamond",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#29315A",
+          "background": "#44475a",
           "template": " \uE77F {{ .Full }} "
         },
         {
-            "background": "#29315A",
+            "background": "#44475a",
             "foreground": "#ffffff",
             "properties": {
                 "time_format": "15:04:05 | Monday"
