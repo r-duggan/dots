@@ -47,13 +47,14 @@ else {
     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 }
 
+#remove previous profile
+rm $PROFILE
 #symlink Powershell profile
 if (Test-Path $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1) {
     Write-Host "Symlink already created`n"
 }
 else {
     $sourcePath = "$HOME\.dots\Microsoft.PowerShell_profile.ps1"
-    $targetPath = "$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
     Write-Host "Symlinking $sourcePath to $targetPath`n"
-    New-Item -ItemType SymbolicLink -Path $targetPath -Target $sourcePath
+    New-Item -ItemType SymbolicLink -Path $PROFILE -Target $sourcePath
 }
