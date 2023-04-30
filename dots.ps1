@@ -4,8 +4,8 @@ if (Test-Path $HOME\.vimrc) {
 }
 else {
     Write-Host "creating .vimrc and sourcing ~/.dots/.vimrc`n"
-    New-Item -ItemType file $env:USERPROFILE\.vimrc
-    Add-Content $env:USERPROFILE\.vimrc 'source ~/.dots/.vimrc'
+    New-Item -ItemType file ~\.vimrc
+    Add-Content ~\.vimrc 'source ~/.dots/.vimrc'
 }
 
 #install vim-plug
