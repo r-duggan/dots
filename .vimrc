@@ -106,3 +106,7 @@ let g:airline_theme='dracula'
 
 " C++ Syntax Highlighting
 " let g:cpp_class_scope_highlight = 1
+" Jupyter Notebook
+set pyxversion=3
+set pythonthreedll=python311.dll
+set pythonthreehome=C:\Python311

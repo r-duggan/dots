@@ -49,4 +49,6 @@ Plug 'ryanoasis/vim-devicons'
 " Error Detection
 Plug 'dense-analysis/ale'
 
+" Juypter Notebook
+Plug 'jupyter-vim/jupyter-vim'
 call plug#end()
