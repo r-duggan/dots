@@ -49,12 +49,26 @@ else {
 
 #remove previous profile
 rm $PROFILE
+
 #symlink Powershell profile
 if (Test-Path $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1) {
     Write-Host "Symlink already created`n"
 }
+
 else {
     $sourcePath = "$HOME\.dots\Microsoft.PowerShell_profile.ps1"
     Write-Host "Symlinking $sourcePath to $targetPath`n"
     New-Item -ItemType SymbolicLink -Path $PROFILE -Target $sourcePath
+}
+
+#symlink ctags
+if (Test-Path $HOME\ctags) {
+    Write-Host "Symlink already created`n"
+}
+
+else {
+    $sourcePath = "$HOME\.dots\ctags"
+    $target = "$HOME\ctags"
+    Write-Host "Symlinking $sourcePath to $targetPath`n"
+    New-Item -ItemType SymbolicLink -Path $target -Target $sourcePath
 }
