@@ -1,0 +1,8 @@
+--langdef=urscript
+--map-urscript=.script
+--kinddef-urscript=d,def,defs
+--kinddef-urscript=t,thread,threads
+--regex-urscript=/^def[ \t]+([a-zA-Z][a-zA-Z0-9]+)/\1/d,def/{scope=push}
+--regex-urscript=/^end///{scope=pop}{placeholder}
+--regex-urscript=/^thread[ \t]+([a-zA-Z][a-zA-Z0-9]+)/\1/t,thread/{scope=push}
+--regex-urscript=/^end///{scope=pop}{placeholder}
