@@ -43,8 +43,9 @@ Plug 'majutsushi/tagbar'
 "The NERDTree is a file system explorer for the Vim editor
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
+Plug 'r-duggan/vim-urscript'
 
 " Error Detection
 Plug 'dense-analysis/ale'
