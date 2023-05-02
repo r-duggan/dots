@@ -29,12 +29,19 @@ endif
 
 filetype plugin indent on
 
+" calls .vimrc.digraphs for custom diagraphs
 if filereadable(expand("~/.dots/.vimrc.digraphs"))
-    source ~/.dots/.vimrc.digraphs
+    source ~/.dots/.vimrc.digraphs 
 end
 
-if filereadable(expand("~/.dots/.vimrc.plug"))	" calls .vimrc.plug for plug-in management
-     source ~/.dots/.vimrc.plug
+" calls .vimrc.plug for plug-in management
+if filereadable(expand("~/.dots/.vimrc.plug"))	     
+    source ~/.dots/.vimrc.plug
+endif
+
+"calls .vimrc.tagbar for custom tagbar support
+if filereadable(expand("~/.dots/.vimrc.tagbar")) 
+    source ~/.dots/.vimrc.tagbar
 endif
 
 " NERDTree stuff
@@ -66,11 +73,6 @@ hi CocHintSign ctermfg=15
 ""  let col = col('.') - 1
 ""  return !col || getline('.')[col - 1]  =~ '\s'
 " endfunction
-
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
 
 " Tags
 nmap <F8> :TagbarToggle<CR>
@@ -110,3 +112,4 @@ let g:airline_theme='dracula'
 set pyxversion=3
 set pythonthreedll=python311.dll
 set pythonthreehome=C:\Python311
+

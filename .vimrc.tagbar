@@ -1,0 +1,10 @@
+"Tagbar Language definition for urscript
+let g:tagbar_type_urscript = {
+    \ 'ctagstype' : 'urscript',
+    \ 'kinds'     : [
+        \ 'd:Functions',
+        \ 't:Threads'
+    \ ],
+    \ 'sort'      : 0
+\ }
+
