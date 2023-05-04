@@ -62,13 +62,13 @@ else {
 }
 
 #symlink ctags
-if (Test-Path $HOME\ctags) {
+if (Test-Path $HOME\ctags.d) {
     Write-Host "Symlink already created`n"
 }
 
 else {
-    $sourcePath = "$HOME\.dots\ctags"
-    $target = "$HOME\ctags"
+    $sourcePath = "$HOME\.dots\ctags.d\"
+    $target = "$HOME\ctags.d\"
     Write-Host "Symlinking $sourcePath to $targetPath`n"
     New-Item -ItemType SymbolicLink -Path $target -Target $sourcePath
 }

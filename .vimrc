@@ -83,7 +83,7 @@ colorscheme dracula
 set termguicolors
 "let ayucolor="dark"
 "colorscheme ayu
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 
 " splits
 set splitbelow
