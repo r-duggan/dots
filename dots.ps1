@@ -44,7 +44,8 @@ if (Test-Path $HOME\AppData\Local\Programs\oh-my-posh\) {
 }
 else {
     Write-Host "Downloading and installing oh-my-posh`n"
-    Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression 
+    ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 }
 
 #remove previous profile
@@ -72,3 +73,12 @@ else {
     Write-Host "Symlinking $sourcePath to $targetPath`n"
     New-Item -ItemType SymbolicLink -Path $target -Target $sourcePath
 }
+
+
+#symlink nvchad custom files for neovim
+#removes current custom and replaces with dotfile version
+rm $HOME\AppData\local\nvim\lua\custom
+$sourcePath = "$HOME\.dots\nvim\lua\custom\"
+$target = "$HOME\AppData\local\nvim\lua\custom\"
+Write-Host "Symlinking $sourcePath to $targetPath`n"
+New-Item -ItemType SymbolicLink -Path $target -Target $sourcePath
