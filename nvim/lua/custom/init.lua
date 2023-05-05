@@ -15,5 +15,3 @@ vim.cmd([[let g:tagbar_type_urscript = {
     \ ],
     \ 'sort'      : 0
 \ }]])
-
-vim.cmd([[autocmd VimEnter * NvimTreeOpen]])
