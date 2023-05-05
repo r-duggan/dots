@@ -49,10 +49,10 @@ else {
 }
 
 #remove previous profile
-rm $PROFILE
+#rm $PROFILE
 
 #symlink Powershell profile
-if (Test-Path $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1) {
+if (Test-Path $HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1) {
     Write-Host "Symlink already created`n"
 }
 
