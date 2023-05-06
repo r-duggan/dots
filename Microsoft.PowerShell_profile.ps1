@@ -4,4 +4,4 @@ Import-Module Terminal-Icons
 
 #Alias
 Set-Alias -Name ls -Value PowerColorLS -Option AllScope
-Set-Alias -Name vim -Value nvim -Option Allscope
+# Set-Alias -Name vim -Value nvim -Option Allscope

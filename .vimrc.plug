@@ -7,6 +7,7 @@ Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'Yggdroot/indentLine'
 Plug 'dracula/vim',{'as':'dracula'}
+Plug 'joshdick/onedark.vim'
 
 "Fugitive Vim Github Wrapper
 Plug 'tpope/vim-fugitive'

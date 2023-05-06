@@ -78,7 +78,7 @@ hi CocHintSign ctermfg=15
 nmap <F8> :TagbarToggle<CR>
 
 " themes
-colorscheme dracula 
+colorscheme onedark 
 "set background=dark
 set termguicolors
 "let ayucolor="dark"

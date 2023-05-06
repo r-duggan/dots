@@ -50,6 +50,7 @@ local plugins = {
         "javascript",
         "json",
         "markdown",
+        "markdown_inline",
 
         -- low level
         "c",
