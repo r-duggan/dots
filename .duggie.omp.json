@@ -5,15 +5,15 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#282a36",
-          "foreground": "#ffffff",
+          "background": "#bd93f9",
+          "foreground": "#282a36",
           "style": "powerline",
           "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",
           "type": "os"
         },
         {
-          "background": "#5024b8",
-          "foreground": "#ffffff",
+          "background": "#44475a",
+          "foreground": "#f8f8f2",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " {{ .Path }} ",

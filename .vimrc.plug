@@ -14,8 +14,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 "Surround Vim Quoting/Parenthesizing made simple
-"Plug 'tpope/vim-surround'
-"Plug 'raimondi/delimitmate'
+Plug 'tpope/vim-surround'
+Plug 'raimondi/delimitmate'
 
 "Lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
@@ -23,7 +23,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 "Code compeletion
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme'
 
 " Fuzzy finder
 Plug 'ctrlpvim/ctrlp.vim'
@@ -51,6 +51,9 @@ Plug 'r-duggan/vim-urscript'
 " Error Detection
 Plug 'dense-analysis/ale'
 
-" Juypter Notebook
-Plug 'jupyter-vim/jupyter-vim'
+" Arduino
+Plug 'stevearc/vim-arduino'
+
+" Catppuccin
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
