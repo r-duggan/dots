@@ -19,7 +19,8 @@
           "template": " {{ .Path }} ",
           "type": "path",
           "properties": {
-            "style": "agnoster_full"
+            "style": "agnoster_short",
+            "max_depth": "4"
           }
         },
         {
@@ -134,39 +135,48 @@
         {
             "background": "#44475a",
             "foreground": "#ffffff",
-            "leading_diamond": "\ue0c5",
             "properties": {
                 "style": "dallas",
                 "threshold": 0
             },
-            "style": "diamond",
-            "template": "\ufa1e {{ .FormattedMs }}s ",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B2",
+            "invert_powerline": true,
+            "template": " \ufa1e {{ .FormattedMs }}s  ",
             "type": "executiontime"
         },
         {
-          "type": "dotnet",
-          "style": "diamond",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#ffffff",
-          "background": "#44475a",
-          "template": " \uE77F {{ .Full }} "
-        },
-        {
-            "background": "#44475a",
-            "foreground": "#ffffff",
+            "background": "#6272a4",
+            "foreground": "#f8f8f2",
             "properties": {
                 "time_format": "15:04:05 | Monday"
             },
-            "style": "plain",
-            "template": "<transparent> \ue0ba\ue0bc </>{{ .CurrentDate | date .Format }} ",
+            "style": "powerline",
+            "invert_powerline": true,
+            "powerline_symbol": "\uE0B2",
+            "template": " {{ .CurrentDate | date .Format }}  ",
             "type": "time"
+        },
+        {
+            "background": "#bd93f9",
+            "foreground": "#282a36",
+            "type": "battery",
+            "style": "powerline",
+            "invert_powerline": true,
+            "powerline_symbol": "\uE0B2",
+            "template": "{{ if not .Error }} \uF240  {{ .Percentage }}% {{ end }} ",
+            "properties": {
+                "discharging_icon": "\uf240",
+                "charging_icon": "\udb84",
+                "charged_icon": "\udc79"
+            }
         }
       ],
       "type": "prompt"
     },
     {
       "alignment": "left",
-      "newline": true,
+      "newline": false,
       "segments": [
         {
           "foreground": "#ffffff",
