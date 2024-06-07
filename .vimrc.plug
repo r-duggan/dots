@@ -1,3 +1,4 @@
+:redraw!
 call plug#begin('~/.vim/plugged')
 
 "Color schemes
@@ -8,6 +9,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'Yggdroot/indentLine'
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'joshdick/onedark.vim'
+Plug 'ghifarit53/tokyonight-vim'
 
 "Fugitive Vim Github Wrapper
 Plug 'tpope/vim-fugitive'
@@ -23,7 +25,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 "Code compeletion
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 
 " Fuzzy finder
 Plug 'ctrlpvim/ctrlp.vim'
@@ -49,10 +51,10 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'r-duggan/vim-urscript'
 
 " Error Detection
-Plug 'dense-analysis/ale'
+"Plug 'dense-analysis/ale'
 
 " Arduino
-Plug 'stevearc/vim-arduino'
+"Plug 'stevearc/vim-arduino'
 
 " Catppuccin
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }

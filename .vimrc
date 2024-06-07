@@ -1,5 +1,5 @@
 set nocompatible
-syntax on
+set syntax=on
 set ruler			    " display current cursor position
 set number relativenumber
 set showcmd			    " display incomplete command in lower right of status
@@ -17,10 +17,11 @@ set scrolloff=20
 set sidescrolloff=20
 set encoding=UTF-8
 set shortmess=a
+set fillchars+=eob:\    " removes the ~ from side
 
 if !has('nvim')
-		set signcolumn=number   " set signcolumn to the number bar
-		endif"
+    set signcolumn=number   " set signcolumn to the number bar
+endif
 
 filetype plugin indent on
 
@@ -49,6 +50,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+let NERDTreeShowHidden=1
 
 
 " GitGutter settings
@@ -62,7 +64,6 @@ set title
 
 " Coc settings
 hi CocHintSign ctermfg=15
-
 " use <tab> for trigger completion and navigate to the next complete item
 "function! s:check_back_space() abort
 ""  let col = col('.') - 1
@@ -74,6 +75,8 @@ nmap <F8> :TagbarToggle<CR>
 
 " themes
 colorscheme catppuccin_mocha
+" colorscheme tokyonight
+" colorscheme dracula
 "set background=dark
 set termguicolors
 "let ayucolor="dark"
