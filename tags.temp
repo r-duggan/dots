@@ -1,0 +1,192 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/c/users/rober/.dots/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$schema	.duggie.omp.json	/^  "$schema": "https:\/\/raw.githubusercontent.com\/JanDeDobbeleer\/oh-my-posh\/main\/themes\/sch/;"	s
+0	.duggie.omp.json	/^              "{{ if gt .Code 0 }}#ff0000{{ end }}"$/;"	s	array:blocks.2.segments.0.foreground_templates
+0	.duggie.omp.json	/^            "{{ if or (.Working.Changed) (.Staging.Changed) }}#FCAE1E{{ end }}",$/;"	s	array:blocks.0.segments.2.background_templates
+0	.duggie.omp.json	/^            "{{if contains \\"default\\" .Profile}}#FFA400{{end}}",$/;"	s	array:blocks.0.segments.8.background_templates
+0	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+0	.duggie.omp.json	/^        {$/;"	o	array:blocks.1.segments
+0	.duggie.omp.json	/^        {$/;"	o	array:blocks.2.segments
+0	.duggie.omp.json	/^    {$/;"	o	array:blocks
+1	.duggie.omp.json	/^            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FCAE1E{{ end }}",$/;"	s	array:blocks.0.segments.2.background_templates
+1	.duggie.omp.json	/^            "{{if contains \\"jan\\" .Profile}}#f1184c{{end}}"$/;"	s	array:blocks.0.segments.8.background_templates
+1	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+1	.duggie.omp.json	/^        {$/;"	o	array:blocks.1.segments
+1	.duggie.omp.json	/^    {$/;"	o	array:blocks
+2	.duggie.omp.json	/^            "{{ if gt .Ahead 0 }}#bd93f9{{ end }}",$/;"	s	array:blocks.0.segments.2.background_templates
+2	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+2	.duggie.omp.json	/^        {$/;"	o	array:blocks.1.segments
+2	.duggie.omp.json	/^    {$/;"	o	array:blocks
+3	.duggie.omp.json	/^            "{{ if gt .Behind 0 }}#B388FF{{ end }}"$/;"	s	array:blocks.0.segments.2.background_templates
+3	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+4	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+5	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+6	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+7	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+8	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+9	.duggie.omp.json	/^        {$/;"	o	array:blocks.0.segments
+ColorMyPencils	nvim/after/plugin/colors.lua	/^function ColorMyPencils(color)$/;"	f
+KOMOREBI_CONFIG_HOME	Microsoft.PowerShell_profile.ps1	/^$Env:KOMOREBI_CONFIG_HOME = 'C:\\Users\\rduggan\\.config\\komorebi'$/;"	v
+alignment	.duggie.omp.json	/^      "alignment": "left",$/;"	s	object:blocks.0
+alignment	.duggie.omp.json	/^      "alignment": "left",$/;"	s	object:blocks.2
+alignment	.duggie.omp.json	/^      "alignment": "right",$/;"	s	object:blocks.1
+always_enabled	.duggie.omp.json	/^              "always_enabled": true$/;"	b	object:blocks.2.segments.0.properties
+arduino_status	nvim/after/plugin/vim-arduino.lua	/^local function arduino_status()$/;"	f
+background	.duggie.omp.json	/^            "background": "#44475a",$/;"	s	object:blocks.1.segments.0
+background	.duggie.omp.json	/^            "background": "#6272a4",$/;"	s	object:blocks.1.segments.1
+background	.duggie.omp.json	/^            "background": "#bd93f9",$/;"	s	object:blocks.1.segments.2
+background	.duggie.omp.json	/^          "background": "#4063D8",$/;"	s	object:blocks.0.segments.4
+background	.duggie.omp.json	/^          "background": "#44475a",$/;"	s	object:blocks.0.segments.1
+background	.duggie.omp.json	/^          "background": "#50fa7b",$/;"	s	object:blocks.0.segments.2
+background	.duggie.omp.json	/^          "background": "#8ED1F7",$/;"	s	object:blocks.0.segments.3
+background	.duggie.omp.json	/^          "background": "#AE1401",$/;"	s	object:blocks.0.segments.6
+background	.duggie.omp.json	/^          "background": "#FCAE1E",$/;"	s	object:blocks.0.segments.7
+background	.duggie.omp.json	/^          "background": "#FFDE57",$/;"	s	object:blocks.0.segments.5
+background	.duggie.omp.json	/^          "background": "#bd93f9",$/;"	s	object:blocks.0.segments.0
+background	.duggie.omp.json	/^          "background": "#ffff66",$/;"	s	object:blocks.0.segments.9
+background_templates	.duggie.omp.json	/^          "background_templates": [$/;"	a	object:blocks.0.segments.2
+background_templates	.duggie.omp.json	/^          "background_templates": [$/;"	a	object:blocks.0.segments.8
+blocks	.duggie.omp.json	/^  "blocks": [$/;"	a
+branch_icon	.duggie.omp.json	/^            "branch_icon": "\\uE0A0 ",$/;"	s	object:blocks.0.segments.2.properties
+branch_identical_icon	.duggie.omp.json	/^            "branch_identical_icon": "\\u25CF"$/;"	s	object:blocks.0.segments.2.properties
+branch_max_length	.duggie.omp.json	/^            "branch_max_length": 25,$/;"	n	object:blocks.0.segments.2.properties
+charged_icon	.duggie.omp.json	/^                "charged_icon": "\\udc79"$/;"	s	object:blocks.1.segments.2.properties
+charging_icon	.duggie.omp.json	/^                "charging_icon": "\\udb84",$/;"	s	object:blocks.1.segments.2.properties
+config	nvim/lua/nogz/packer.lua	/^  config = function()$/;"	f
+console_title_template	.duggie.omp.json	/^  "console_title_template": "{{ .Folder }}",$/;"	s
+def	ctags.d/ur-script.ctags	/^--kinddef-urscript=d,def,defs$/;"	k	langdef:urscript
+def	ctags.d/ur-script.ctags	/^--regex-urscript=\/^def[ \\t]+([a-zA-Z][a-zA-Z0-9]+)\/\\1\/d,def\/{scope=push}$/;"	k	langdef:urscript
+discharging_icon	.duggie.omp.json	/^                "discharging_icon": "\\uf240",$/;"	s	object:blocks.1.segments.2.properties
+display_default	.duggie.omp.json	/^            "display_default": false$/;"	b	object:blocks.0.segments.8.properties
+display_mode	.duggie.omp.json	/^            "display_mode": "files",$/;"	s	object:blocks.0.segments.5.properties
+display_mode	.duggie.omp.json	/^            "display_mode": "files",$/;"	s	object:blocks.0.segments.6.properties
+display_mode	.duggie.omp.json	/^            "display_mode": "files",$/;"	s	object:blocks.0.segments.7.properties
+error_msg	nvim/plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+fetch_stash_count	.duggie.omp.json	/^            "fetch_stash_count": true,$/;"	b	object:blocks.0.segments.2.properties
+fetch_status	.duggie.omp.json	/^            "fetch_status": true,$/;"	b	object:blocks.0.segments.2.properties
+fetch_version	.duggie.omp.json	/^            "fetch_version": false$/;"	b	object:blocks.0.segments.7.properties
+fetch_version	.duggie.omp.json	/^            "fetch_version": true$/;"	b	object:blocks.0.segments.3.properties
+fetch_version	.duggie.omp.json	/^            "fetch_version": true$/;"	b	object:blocks.0.segments.4.properties
+fetch_version	.duggie.omp.json	/^            "fetch_version": true$/;"	b	object:blocks.0.segments.6.properties
+fetch_virtual_env	.duggie.omp.json	/^            "fetch_virtual_env": false$/;"	b	object:blocks.0.segments.5.properties
+final_space	.duggie.omp.json	/^  "final_space": true,$/;"	b
+foreground	.duggie.omp.json	/^            "foreground": "#282a36",$/;"	s	object:blocks.1.segments.2
+foreground	.duggie.omp.json	/^            "foreground": "#f8f8f2",$/;"	s	object:blocks.1.segments.1
+foreground	.duggie.omp.json	/^            "foreground": "#ffffff",$/;"	s	object:blocks.1.segments.0
+foreground	.duggie.omp.json	/^          "foreground": "#000000",$/;"	s	object:blocks.0.segments.2
+foreground	.duggie.omp.json	/^          "foreground": "#000000",$/;"	s	object:blocks.0.segments.3
+foreground	.duggie.omp.json	/^          "foreground": "#000000",$/;"	s	object:blocks.0.segments.4
+foreground	.duggie.omp.json	/^          "foreground": "#000000",$/;"	s	object:blocks.0.segments.5
+foreground	.duggie.omp.json	/^          "foreground": "#000000",$/;"	s	object:blocks.0.segments.9
+foreground	.duggie.omp.json	/^          "foreground": "#282a36",$/;"	s	object:blocks.0.segments.0
+foreground	.duggie.omp.json	/^          "foreground": "#f8f8f2",$/;"	s	object:blocks.0.segments.1
+foreground	.duggie.omp.json	/^          "foreground": "#ffffff",$/;"	s	object:blocks.0.segments.6
+foreground	.duggie.omp.json	/^          "foreground": "#ffffff",$/;"	s	object:blocks.0.segments.7
+foreground	.duggie.omp.json	/^          "foreground": "#ffffff",$/;"	s	object:blocks.0.segments.8
+foreground	.duggie.omp.json	/^          "foreground": "#ffffff",$/;"	s	object:blocks.2.segments.0
+foreground_templates	.duggie.omp.json	/^          "foreground_templates": [$/;"	a	object:blocks.2.segments.0
+invert_powerline	.duggie.omp.json	/^            "invert_powerline": true,$/;"	b	object:blocks.1.segments.0
+invert_powerline	.duggie.omp.json	/^            "invert_powerline": true,$/;"	b	object:blocks.1.segments.1
+invert_powerline	.duggie.omp.json	/^            "invert_powerline": true,$/;"	b	object:blocks.1.segments.2
+leading_diamond	.duggie.omp.json	/^          "leading_diamond": "\\ue0b6",$/;"	s	object:blocks.0.segments.2
+max_depth	.duggie.omp.json	/^            "max_depth": "4"$/;"	s	object:blocks.0.segments.1.properties
+newline	.duggie.omp.json	/^      "newline": false,$/;"	b	object:blocks.2
+powerline_symbol	.duggie.omp.json	/^            "powerline_symbol": "\\uE0B2",$/;"	s	object:blocks.1.segments.0
+powerline_symbol	.duggie.omp.json	/^            "powerline_symbol": "\\uE0B2",$/;"	s	object:blocks.1.segments.1
+powerline_symbol	.duggie.omp.json	/^            "powerline_symbol": "\\uE0B2",$/;"	s	object:blocks.1.segments.2
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.1
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.2
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.3
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.4
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.5
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.6
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.7
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.8
+powerline_symbol	.duggie.omp.json	/^          "powerline_symbol": "\\ue0b0",$/;"	s	object:blocks.0.segments.9
+properties	.duggie.omp.json	/^            "properties": {$/;"	o	object:blocks.1.segments.0
+properties	.duggie.omp.json	/^            "properties": {$/;"	o	object:blocks.1.segments.1
+properties	.duggie.omp.json	/^            "properties": {$/;"	o	object:blocks.1.segments.2
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.1
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.2
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.3
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.4
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.5
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.6
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.7
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.0.segments.8
+properties	.duggie.omp.json	/^          "properties": {$/;"	o	object:blocks.2.segments.0
+root_dir	nvim/after/plugin/arduino.lua	/^    root_dir = function()$/;"	f
+root_dir	nvim/after/plugin/clangd.lua	/^    root_dir = function()$/;"	f
+save_profiles	nvim/plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+segments	.duggie.omp.json	/^      "segments": [$/;"	a	object:blocks.0
+segments	.duggie.omp.json	/^      "segments": [$/;"	a	object:blocks.1
+segments	.duggie.omp.json	/^      "segments": [$/;"	a	object:blocks.2
+sourcePath	dots.ps1	/^    $sourcePath = "$HOME\\.dots\\Microsoft.PowerShell_profile.ps1"$/;"	v
+sourcePath	dots.ps1	/^    $sourcePath = "$HOME\\.dots\\ctags.d\\"$/;"	v
+style	.duggie.omp.json	/^                "style": "dallas",$/;"	s	object:blocks.1.segments.0.properties
+style	.duggie.omp.json	/^            "style": "agnoster_short",$/;"	s	object:blocks.0.segments.1.properties
+style	.duggie.omp.json	/^            "style": "powerline",$/;"	s	object:blocks.1.segments.0
+style	.duggie.omp.json	/^            "style": "powerline",$/;"	s	object:blocks.1.segments.1
+style	.duggie.omp.json	/^            "style": "powerline",$/;"	s	object:blocks.1.segments.2
+style	.duggie.omp.json	/^          "style": "plain",$/;"	s	object:blocks.2.segments.0
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.0
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.1
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.2
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.3
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.4
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.5
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.6
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.7
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.8
+style	.duggie.omp.json	/^          "style": "powerline",$/;"	s	object:blocks.0.segments.9
+template	.duggie.omp.json	/^            "template": " \\ufa1e {{ .FormattedMs }}s  ",$/;"	s	object:blocks.1.segments.0
+template	.duggie.omp.json	/^            "template": " {{ .CurrentDate | date .Format }}  ",$/;"	s	object:blocks.1.segments.1
+template	.duggie.omp.json	/^            "template": "{{ if not .Error }} \\uF240  {{ .Percentage }}% {{ end }} ",$/;"	s	object:blocks.1.segments.2
+template	.duggie.omp.json	/^          "template": " \\u276f ",$/;"	s	object:blocks.2.segments.0
+template	.duggie.omp.json	/^          "template": " \\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",$/;"	s	object:blocks.0.segments.5
+template	.duggie.omp.json	/^          "template": " \\ue624 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",$/;"	s	object:blocks.0.segments.4
+template	.duggie.omp.json	/^          "template": " \\ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",$/;"	s	object:blocks.0.segments.3
+template	.duggie.omp.json	/^          "template": " \\ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",$/;"	s	object:blocks.0.segments.6
+template	.duggie.omp.json	/^          "template": " \\ue7ad {{ .Profile }}{{ if .Region }}@{{ .Region }}{{ end }} ",$/;"	s	object:blocks.0.segments.8
+template	.duggie.omp.json	/^          "template": " \\uf0ad ",$/;"	s	object:blocks.0.segments.9
+template	.duggie.omp.json	/^          "template": " \\uf0e7{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",$/;"	s	object:blocks.0.segments.7
+template	.duggie.omp.json	/^          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Work/;"	s	object:blocks.0.segments.2
+template	.duggie.omp.json	/^          "template": " {{ .Path }} ",$/;"	s	object:blocks.0.segments.1
+template	.duggie.omp.json	/^          "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",$/;"	s	object:blocks.0.segments.0
+thread	ctags.d/ur-script.ctags	/^--kinddef-urscript=t,thread,threads$/;"	k	langdef:urscript
+thread	ctags.d/ur-script.ctags	/^--regex-urscript=\/^thread[ \\t]+([a-zA-Z][a-zA-Z0-9]+)\/\\1\/t,thread\/{scope=push}$/;"	k	langdef:urscript
+threshold	.duggie.omp.json	/^                "threshold": 0$/;"	n	object:blocks.1.segments.0.properties
+time	nvim/plugin/packer_compiled.lua	/^  time = function(chunk, start) end$/;"	f
+time	nvim/plugin/packer_compiled.lua	/^  time = function(chunk, start)$/;"	f
+time_format	.duggie.omp.json	/^                "time_format": "15:04:05 | Monday"$/;"	s	object:blocks.1.segments.1.properties
+trailing_diamond	.duggie.omp.json	/^          "trailing_diamond": "\\ue0b4",$/;"	s	object:blocks.0.segments.2
+try_loadstring	nvim/plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
+type	.duggie.omp.json	/^            "type": "battery",$/;"	s	object:blocks.1.segments.2
+type	.duggie.omp.json	/^            "type": "executiontime"$/;"	s	object:blocks.1.segments.0
+type	.duggie.omp.json	/^            "type": "time"$/;"	s	object:blocks.1.segments.1
+type	.duggie.omp.json	/^          "type": "aws"$/;"	s	object:blocks.0.segments.8
+type	.duggie.omp.json	/^          "type": "azfunc"$/;"	s	object:blocks.0.segments.7
+type	.duggie.omp.json	/^          "type": "exit"$/;"	s	object:blocks.2.segments.0
+type	.duggie.omp.json	/^          "type": "git"$/;"	s	object:blocks.0.segments.2
+type	.duggie.omp.json	/^          "type": "go"$/;"	s	object:blocks.0.segments.3
+type	.duggie.omp.json	/^          "type": "julia"$/;"	s	object:blocks.0.segments.4
+type	.duggie.omp.json	/^          "type": "os"$/;"	s	object:blocks.0.segments.0
+type	.duggie.omp.json	/^          "type": "path",$/;"	s	object:blocks.0.segments.1
+type	.duggie.omp.json	/^          "type": "python"$/;"	s	object:blocks.0.segments.5
+type	.duggie.omp.json	/^          "type": "root"$/;"	s	object:blocks.0.segments.9
+type	.duggie.omp.json	/^          "type": "ruby"$/;"	s	object:blocks.0.segments.6
+type	.duggie.omp.json	/^      "type": "prompt"$/;"	s	object:blocks.0
+type	.duggie.omp.json	/^      "type": "prompt"$/;"	s	object:blocks.1
+type	.duggie.omp.json	/^      "type": "prompt"$/;"	s	object:blocks.2
+upender	Microsoft.PowerShell_profile.ps1	/^function upender { $/;"	f
+urscript	ctags.d/ur-script.ctags	/^--langdef=urscript$/;"	l
+version	.duggie.omp.json	/^  "version": 2$/;"	n
