@@ -12,7 +12,7 @@ set tabstop=4 			" tab is 4 spaces
 set shiftwidth=4        " indent is 4 spaces
 set smartcase			" includes only uppercase words with uppercase search term
 set noswapfile          " no swapfile
-let mapleader = ","
+let mapleader=","
 set scrolloff=20
 set sidescrolloff=20
 set encoding=UTF-8
@@ -28,7 +28,7 @@ filetype plugin indent on
 " calls .vimrc.digraphs for custom diagraphs
 if filereadable(expand("~/.dots/.vimrc.digraphs"))
     source ~/.dots/.vimrc.digraphs 
-end
+endif
 
 " calls .vimrc.plug for plug-in management
 if filereadable(expand("~/.dots/.vimrc.plug"))	     
@@ -59,14 +59,14 @@ highlight GitGutterChange ctermfg=yellow
 highlight GitGutterDelete ctermfg=red
 
 " put the current working document as the title of terminal
-autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
+autocmd BufEnter * let &titlestring=' ' . expand("%:t")
 set title
 
 " Coc settings
 hi CocHintSign ctermfg=15
 " use <tab> for trigger completion and navigate to the next complete item
 "function! s:check_back_space() abort
-""  let col = col('.') - 1
+""  let col=col('.') - 1
 ""  return !col || getline('.')[col - 1]  =~ '\s'
 " endfunction
 
@@ -91,8 +91,8 @@ set splitright
 inoremap jk <ESC>
 let mapleader=""
 
-let g:indentLine_color_term = 239
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_color_term=239
+let g:indentLine_char_list=['|', '¦', '┆', '┊']
 
 " folding
 set foldmethod=indent   
@@ -101,8 +101,8 @@ set nofoldenable
 set foldlevel=5
 
 "Airline Config
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 let g:airline_theme='dracula'
 
 " C++ Syntax Highlighting
-" let g:cpp_class_scope_highlight = 1
+" let g:cpp_class_scope_highlight=1
