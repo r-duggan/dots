@@ -19,6 +19,8 @@ set encoding=UTF-8
 set shortmess=a
 set fillchars+=eob:\    " removes the ~ from side
 
+" Test comment
+
 if !has('nvim')
     set signcolumn=number   " set signcolumn to the number bar
 endif
